@@ -2,7 +2,7 @@ import React from 'react';
 import Loadable from 'react-loadable';
 import { Switch, Route, Redirect } from 'react-router-dom';
 
-import Loader from './Loader';
+import Loader from './Layout/Loader';
 
 const FlightSection = Loadable({
   loader: () => import(/* webpackChunkName: 'FlightList' */ './FlightList'),

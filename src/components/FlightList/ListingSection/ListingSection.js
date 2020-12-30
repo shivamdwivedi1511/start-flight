@@ -1,6 +1,6 @@
 import { isEmpty, map } from 'lodash';
 import React from 'react';
-import Flight from '../Flight';
+import Flight from './Flight';
 
 export default function ListingSection({ data }) {
   return (

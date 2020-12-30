@@ -1,10 +1,10 @@
 import React, { useCallback, useEffect, useMemo, useState } from 'react';
 import './starFlight.scss';
 import { api } from '../../api';
-import Head from '../Head';
+import Head from '../Layout/Head';
 import qs from 'query-string';
-import Footer from './Footer';
-import Loader from '../Loader';
+import Footer from '../Layout/Footer';
+import Loader from '../Layout/Loader';
 import FilterSection from './FilterSection/FilterSection';
 import ListingSection from './ListingSection/ListingSection';
 
